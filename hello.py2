@@ -1,0 +1,40 @@
+class player:
+    HP = 100
+    MP = 100
+    
+    def att(self,enemy):
+        if self.MP == 100:
+            self.MP = 50
+            enemy.HP = 50
+
+    def meet(self,npc):
+        pass
+
+class enemy:
+    HP = 100
+    MP = 100
+
+class npc:
+    pass
+
+while True:
+    menu = int(input("1과 2 둘 중 하나를 눌러주세요."))
+    if(menu <= 2):
+        if(menu == 1):
+            def meet(self,npc):
+                pass
+                
+            print("player가 npc를 만났습니다.")
+
+        elif(menu == 2):
+            def att(self,enemy):
+                if self.MP == 100:
+                    self.MP = 50
+                    enemy.HP = 50
+            print("player가 enemy를 공격하였습니다.")
+            
+    elif(enemy.HP == 0):
+        break
+
+    else:
+        print("다시 입력하세요.")
