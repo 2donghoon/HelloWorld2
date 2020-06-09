@@ -19,25 +19,24 @@ while True:
         numberB = int(input("두 번째 숫자를 입력하세요."))
         if(menu == 1):
             result = sum(numberA, numberB)
-            print("결과는 %d입니다."%result)
             file = open("계산.txt", 'w')
-            file.write("%d")
+            file.write("결과는 %d입니다."%result)
             file.close
         elif(menu == 2):
             result = sub(numberA, numberB)
             print("결과는 %d입니다."%result)
             file = open("계산.txt", 'w')
-            file.write("%d")
+            file.write("결과는 %d입니다."%result)
             file.close
         elif(menu == 3):
             result = mul(numberA, numberB)
             print("결과는 %d입니다."%result)
             file = open("계산.txt", 'w')
-            file.write("%d")
+            file.write("결과는 %d입니다."%result)
             file.close
         elif(menu == 4):
             result = div(numberA, numberB)
             print("결과는 %d입니다."%result)
             file = open("계산.txt", 'w')
-            file.write("%d")
+            file.write("결과는 %d입니다."%result)
             file.close
